@@ -9,11 +9,11 @@
 
 header#header {
     font-family: 'Bonheur Royale', cursive;
-    font-size: 32px;
+    font-size: 36px;
     padding: 0.5em 0.5em;
     font-weight: 555;
     text-align: right;
-    transform: translateX(-4.5em);
+    margin-right: 3.75em;
 }
 
 .intro-header .intro-header-text {
@@ -129,7 +129,7 @@ div.intro-img {
 
 .cake {
     position: absolute;
-    top: 4em;
+    top: 4.5em;
     right: 3em;
     width: 30%;
     float: right;
