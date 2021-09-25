@@ -12,6 +12,8 @@ header#header {
     font-size: 32px;
     padding: 0.5em 0.5em;
     font-weight: 555;
+    text-align: right;
+    transform: translateX(-4.5em);
 }
 
 .intro-header .intro-header-text {
@@ -20,6 +22,7 @@ header#header {
     font-size: 50px;
     font-weight: 600;
     margin-left: 2em;
+    position: relative;
 }
 
 div.intro-img {
@@ -122,4 +125,12 @@ div.intro-img {
 
 .img-list img {
     width: calc(100%/6);
+}
+
+.cake {
+    position: absolute;
+    top: 4em;
+    right: 3em;
+    width: 30%;
+    float: right;
 }
