@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+    background-color: #F7F7F2;
+}
+
+header#header {
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 32px;
+    padding: 0.5em 0.5em;
+    font-weight: 555;
+}
+
+.intro-header .intro-header-text {
+    font-family: 'Bonheur Royale', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 50px;
+    font-weight: 600;
+    margin-left: 2em;
+}
+
+div.intro-img {
+    display: inline-block;
+    width: 25%;
+    margin-left: 3em;
+    float: left;
+}
+
+.intro-content {
+    margin-top: 5em;
+    overflow: hidden;
+}
+
+.intro-paragraph {
+    width: 50%;
+    font-size: 24px;
+    text-align: justify;
+    display: inline-block;
+    font-family: 'Quicksand', sans-serif;
+    float: left;
+    margin-left: 8em;
+}
+
+.video {
+    margin-top: 4em;
+    text-align: center;
+}
+
+.previd-text {
+    font-family: 'Bonheur Royale', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 56px;
+}
+
+#footer {
+    
+}
+
+.gallery {
+    overflow: hidden;
+}
+
+.gallery .pict1 {
+    width: 35%;
+    margin-top: 8em;
+    float: left;
+    margin-left: 2em;
+}
+
+.gallery .pict1 img,
+.gallery .pict2 img, 
+.intro-img img {
+    width: 100%;
+}
+
+.text-1 {
+    font-family: 'Bonheur Royale', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 40px;
+    width: 50%;
+    text-align: justify;
+    float: left;
+    margin-top: 2em;
+    margin-left: 1.5em;
+    font-weight: 600;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 500;
+    font-style: 28px;
+    text-align: center;
+}
+
+.gallery .pict2 {
+    width: 35%;
+    margin-top: 8em;
+    float: right;
+    margin-right: 2em;
+}
+
+.text-2 {
+    font-family: 'Bonheur Royale', cursive;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 30px;
+    width: 50%;
+    text-align: justify;
+    float: right;
+    margin-top: 2em;
+    margin-right: 1.5em;
+    font-weight: 600;
+}
+
+.img-list {
+    width: 100%;
+    margin-top: 12em;
+    overflow: hidden;    
+}
+
+.img-list img {
+    width: calc(100%/6);
+}
